@@ -4,7 +4,10 @@ import GlobalStyles from '../components/GlobalStyles';
 import questions from '../questions.json';
 import Poll from '../components/Poll';
 
-const IndexPage = styled.div``;
+const IndexPage = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 export default () => (
   <IndexPage>
